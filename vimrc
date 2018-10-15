@@ -26,10 +26,10 @@ function LocalVimrc()
 	execute "cd " . curdir
 endfunction
 
-nnoremap zxc :call VimBuild("clean") <CR>
-nnoremap zxb :call VimBuild("build") <CR>
-nnoremap zxr :call VimBuild("run") <CR>
-nnoremap zxd :call VimBuild("debug") <CR>
+nnoremap zxc :call VimBuild("clean")
+nnoremap zxb :call VimBuild("build")
+nnoremap zxr :call VimBuild("run")
+nnoremap zxd :call VimBuild("debug")
 
 set autoindent
 set tabstop=8

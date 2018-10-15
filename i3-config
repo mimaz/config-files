@@ -169,5 +169,18 @@ bar {
         status_command i3status
 }
 
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
+bindsym XF86AudioMut exec pactl set-sink-mute 0 toggle
+bindsym Shift+XF86AudioRaiseVolume exec pactl set-sink-volume 0 5%
+bindsym Shift+XF86AudioLowerVolume exec pactl set-sink-volume 0 5%
+
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+bindsym Shift+XF86MonBrightnessUp exec xbacklight -set 100
+bindsym Shift+XF86MonBrightnessDown exec xbacklight -set 1
+
 exec xrandr --output HDMI-2 --right-of DP-1
+exec setxkbmap pl
 exec dunst
+exec pasystray
