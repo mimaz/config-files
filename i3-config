@@ -80,7 +80,8 @@ bindsym Shift+XF86MonBrightnessUp exec xbacklight -set 100
 bindsym Shift+XF86MonBrightnessDown exec xbacklight -set 1
 
 client.focused $pricolor $pricolor $seccolor $ind_color
-client.unfocused $seccolor $secondary_color $pricolor $ind_color
+client.unfocused $pricolor $seccolor $pricolor $ind_color
+client.focused_inactive $pricolor $seccolor $pricolor $ind_color
 
 mode "resize" {
         bindsym j resize shrink width 10 px or 10 ppt
