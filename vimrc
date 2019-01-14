@@ -35,9 +35,9 @@ nnoremap zcc :!gcc -O0 -Wall -std=c11 % -o /tmp/vimcc && /tmp/vimcc \r
 nnoremap qq :wq!
 
 set autoindent
-set tabstop=8
-set shiftwidth=8
-set noexpandtab
+set tabstop=2
+set shiftwidth=2
+set expandtab
 set number
 set tags=./tags;/
 
