@@ -9,8 +9,6 @@ URxvt*saveLines: 10000
 URxvt.font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 URxvt.bold.font: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
 URxvt.depth: 32
-URxvt.foreground: white
-URxvt.background: [95]#000000
 URxvt.iso14755: false
 URxvt.keysym.Shift-Control-V: eval: paste_clipboard
 URxvt.keysym.Shift-Control-C: eval: selection_to_clipboard
@@ -23,19 +21,22 @@ URxvt.keysym.Shift-Control-Up: \033[1;6A
 URxvt.keysym.Control-Down: \033[1;5B
 URxvt.keysym.Shift-Control-Down: \033[1;6B
 
-*color0:  #2E3436
-*color1:  #a40000
-*color2:  #4E9A06
-*color3:  #C4A000
-*color4:  #3465A4
-*color5:  #75507B
-*color6:  #ce5c00
-*color7:  #babdb9
-*color8:  #555753
-*color9:  #EF2929
-*color10: #8AE234
-*color11: #FCE94F
-*color12: #729FCF
-*color13: #AD7FA8
-*color14: #fcaf3e
-*color15: #EEEEEC
+
+*foreground: #eeee11
+*background: #000000
+*color0:  #000000
+*color1:  #aa0000
+*color2:  #00aa00
+*color3:  #aaaa00
+*color4:  #0000aa
+*color5:  #aa00aa
+*color6:  #00aaaa
+*color7:  #aaaaaa
+*color8:  #111111
+*color9:  #ff0000
+*color10: #00ff00
+*color11: #ffff00
+*color12: #0000ff
+*color13: #ff00ff
+*color14: #00ffff
+*color15: #ffffff
