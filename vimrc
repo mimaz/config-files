@@ -27,11 +27,16 @@ function LocalVimrc()
 endfunction
 
 nnoremap zxc :call VimBuild("clean")
+nnoremap zxq :call VimBuild("cleanall")
 nnoremap zxb :call VimBuild("build")
 nnoremap zxr :call VimBuild("run")
 nnoremap zxd :call VimBuild("debug")
 nnoremap zxs :call VimBuild("size")
-nnoremap zcc :!gcc -O0 -Wall -std=c11 % -o /tmp/vimcc && /tmp/vimcc \r
+nnoremap zxt :call VimBuild("test")
+nnoremap zxf :call VimBuild("flash")
+nnoremap zxw :call VimBuild("configure")
+nnoremap zxC :call VimBuild("ctags")
+nnoremap zcc :!gcc -O0 -Wall -std=c11 % -o /tmp/vimcc && /tmp/vimcc
 nnoremap qq :wq!
 
 set autoindent
