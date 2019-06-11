@@ -37,13 +37,13 @@ nnoremap zxf :call VimBuild("flash")
 nnoremap zxw :call VimBuild("configure")
 nnoremap zxC :call VimBuild("ctags")
 nnoremap zcc :!gcc -O0 -Wall -std=c11 % -o /tmp/vimcc && /tmp/vimcc
-nnoremap qq :wq!
 
 set autoindent
-set tabstop=2
-set shiftwidth=2
-set expandtab
+set tabstop=8
+set shiftwidth=8
+set noexpandtab
 set number
 set tags=./tags;/
+set nohlsearch
 
 call LocalVimrc()

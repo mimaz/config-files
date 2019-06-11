@@ -2,17 +2,17 @@ Xft.dpi: 96
 Xft.antialias: true
 Xft.hinting: true
 
-#define first_color #ca50d4
+#define first_color #90d69f
 #define second_color #95a697
-#define third_color #d6a537
-#define background_color #0a2018
+#define third_color #e8f0ef
+#define background_color #0d0506
 
 URxvt*scrollBar: false
 URxvt*mouseWheelScrollPage: false
 URxvt*cursorBlink: true
 URxvt*saveLines: 10000
 URxvt.foreground: third_color
-URxvt.background: rgba:0a0a/2020/1818/eeee
+URxvt.background: rgba:0a0a/2020/1818/f2f2
 URxvt.depth: 32
 URxvt.keysym.Shift-Control-V: eval: paste_clipboard
 URxvt.keysym.Shift-Control-C: eval: selection_to_clipboard
@@ -22,19 +22,19 @@ URxvt.keysym.Shift-Control-C: eval: selection_to_clipboard
 *third: third_color
 *background: background_color
 
-*color0:  #020401
-*color1:  #9c3b2c
-*color2:  #60a544
-*color3:  #9a8f21
-*color4:  #3222ab
-*color5:  #a545a0
-*color6:  #509f9a
-*color7:  #949795
-*color8:  #0c0b0b
-*color9:  #dc7890
-*color10: #60cf69
-*color11: #efe089
-*color12: #797ffe
-*color13: #cf90fb
-*color14: #75ddfa
-*color15: #dfcff8
+*color0:  #020202
+*color1:  #de504e
+*color2:  #4ec05f
+*color3:  #cab960
+*color4:  #6252f0
+*color5:  #c24fcf
+*color6:  #60cfd6
+*color7:  #c0c0c0
+*color8:  #040404
+*color9:  #f8806e
+*color10: #60f069
+*color11: #efea90
+*color12: #8486ff
+*color13: #f295f9
+*color14: #99f0f5
+*color15: #f7f7f7

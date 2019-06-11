@@ -14,7 +14,7 @@ set $urgent #cf8930
 
 floating_modifier $mod
 
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec st
 bindsym $mod+Shift+q kill
 bindsym $mod+d exec dmenu_run -p ">" -m -1 -b -nb "$background" -nf "$primary" -sb "$primary" -sf "$background"
 
